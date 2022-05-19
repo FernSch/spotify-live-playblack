@@ -7,16 +7,11 @@ as well as alert whenever a new song starts playing
 
 For this project, you will need Python installed on your system.
 
-### Prerequisites
 
 when getting your spotify token. make sure these two scopes are selected
 ![picture of required spotify scopes](https://github.com/FernSch/spotify-live-playblack/blob/master/assets/scopes.jpg)
 
-### Installing
 
-```
-N/A
-```
 
 ## Running the app
 
@@ -24,10 +19,6 @@ N/A
 python main.py
 ```
 
-## Common issues
 
-N/A
-
-## License
 
 This project is licensed under the MIT License 

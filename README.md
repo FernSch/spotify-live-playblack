@@ -9,7 +9,8 @@ For this project, you will need Python installed on your system.
 
 ### Prerequisites
 
-N/A
+when getting your spotify token. make sure these two scopes are selected
+![picture of required spotify scopes](scopes.jpg)
 
 ### Installing
 

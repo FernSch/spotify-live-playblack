@@ -1,4 +1,4 @@
-# Get Current Playing Song on Spotify 
+# Spotify live playback 
 
 A simple script to get the current playing song on Spotify
 it will also print our user progress in the song.

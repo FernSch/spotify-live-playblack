@@ -16,6 +16,7 @@ def get_current_track(access_token):
     response = requests.get(
         SPOTIFY_GET_CURRENT_TRACK_URL,
         headers={
+            "Authorization": f"Bearer {access_token}"
         }
     )
     json_resp = response.json()

@@ -31,5 +31,4 @@ Then on the left side of the screen. click "Oauth2", and on that screen click "c
 put this under client_id
 
 
-# Licensing
-This project is licensed under the MIT License 
+

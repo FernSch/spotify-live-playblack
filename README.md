@@ -12,12 +12,9 @@ when getting your spotify token. make sure these two scopes are selected
 ![picture of required spotify scopes](https://github.com/FernSch/spotify-live-playblack/blob/master/assets/scopes.jpg)
 
 
+#Discord RPC use
 
-## Running the app
-
-```
-python main.py
-```
+#go to [Discord Developer Portal](https://discord.com/developers)
 
 
 

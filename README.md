@@ -14,7 +14,21 @@ when getting your spotify token. make sure these two scopes are selected
 
 # Discord RPC use
 go to [Discord Developer Portal](https://discord.com/developers)
+sign in with your discord you want to use for the RPC
+
+click "new app" at the top right
+![picture of new app](https://github.com/FernSch/spotify-live-playblack/blob/master/assets/new_app.png)
+
+then under "app name" Name this whatever you want the title of your RPC to be, such as "Spotify"
+
+![app_name](https://github.com/FernSch/spotify-live-playblack/blob/master/assets/app_name.png)
+
+Then on the left side of the screen. click "Oauth2", and on that screen click "copy" under "client ID"
+
+![client_id](https://github.com/FernSch/spotify-live-playblack/blob/master/assets/client_id.png)
+
+put this under client_id
 
 
-
+# Licensing
 This project is licensed under the MIT License 

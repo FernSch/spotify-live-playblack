@@ -9,6 +9,7 @@ For this project, you will need Python installed on your system.
 
 
 when getting your spotify token. make sure these two scopes are selected
+
 ![picture of required spotify scopes](https://github.com/FernSch/spotify-live-playblack/blob/master/assets/scopes.jpg)
 
 

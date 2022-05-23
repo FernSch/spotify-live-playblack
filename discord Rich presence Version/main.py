@@ -86,8 +86,7 @@ while True:
             #print("updated")
             #RPC.update(buttons=[{"label": "Listen", "url": link}])
         time.sleep(wait_time)
-    except:
-        pass
+    except get_current_track(ACCESS_TOKEN) == Nonetype:
         RPC.update(details="No song playing", state="⛔🎧")
         #print("Now playing ad")
        # time.sleep(1)

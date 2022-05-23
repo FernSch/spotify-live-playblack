@@ -11,6 +11,8 @@ SPOTIFY_GET_CURRENT_TRACK_URL = 'https://api.spotify.com/v1/me/player/currently-
 
 ACCESS_TOKEN = 'YOUR-ACCESS-TOKEN-HERE'
 
+wait_time = 0
+#in seconds
 
 def get_current_track(access_token):
     response = requests.get(
@@ -72,6 +74,8 @@ while True:
             track_info = get_current_track(ACCESS_TOKEN)
             print(f"{track_info['progress']['minutes']}:{track_info['progress']['seconds']:02} / {track_info['duration']['minutes']}:{track_info['duration']['seconds']:02} \r")
         #time.sleep(1)
+        time.sleep(wait_time)
     except get_current_track(ACCESS_TOKEN) == NoneType:
         print("Now playing ad")
-        time.sleep(1)
+        #time.sleep(1)
+        time.sleep(wait_time)

@@ -31,4 +31,8 @@ Then on the left side of the screen. click "Oauth2", and on that screen click "c
 put this under client_id
 
 
+after this, running the project will yeild this in discord on your profile
+
+![spotify rpc example](https://github.com/FernSch/spotify-live-playblack/blob/master/assets/spotify%20rpc.png)
+
 

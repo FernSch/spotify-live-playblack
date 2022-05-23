@@ -15,6 +15,7 @@ client_id = "YOUR-DISCORD-APP-CLIENT-ID"
 RPC = Presence(client_id)  # Initialize the Presence class
 RPC.connect()  # Start the handshake loop
 
+wait_time = 0
 
 
 def get_current_track(access_token):
@@ -84,9 +85,11 @@ while True:
             RPC.update(details=f"Now playing {get_current_track(ACCESS_TOKEN)['track_name']} by {get_current_track(ACCESS_TOKEN)['artists']}", state=f"{track_info['progress']['minutes']}:{track_info['progress']['seconds']:02} - {track_info['duration']['minutes']}:{track_info['duration']['seconds']:02} \r")
             #print("updated")
             #RPC.update(buttons=[{"label": "Listen", "url": link}])
+        time.sleep(wait_time)
     except:
         pass
         RPC.update(details="No song playing", state="⛔🎧")
         #print("Now playing ad")
        # time.sleep(1)
     #will show "No song playing" if no song is playing or if ad is playing
+        time.sleep(wait_time)

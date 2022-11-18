@@ -10,7 +10,7 @@ SPOTIFY_GET_CURRENT_TRACK_URL = 'https://api.spotify.com/v1/me/player/currently-
 #access token intents must include "user-read-playback-position" in addition to default intent in order to include "progress_ms"
 
 ACCESS_TOKEN = 'YOUR-ACCESS-TOKEN-HERE'
-
+#addded wait time as updating every second seems to get you rate limited
 wait_time = 0
 #in seconds
 
@@ -79,3 +79,4 @@ while True:
         print("Now playing ad")
         #time.sleep(1)
         time.sleep(wait_time)
+#simly dont be cringe and have spotify premium /j

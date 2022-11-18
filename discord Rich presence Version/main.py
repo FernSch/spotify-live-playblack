@@ -16,7 +16,7 @@ RPC = Presence(client_id)  # Initialize the Presence class
 RPC.connect()  # Start the handshake loop
 
 wait_time = 0
-
+#i suggest at least 1 second wait time as it seems updating it too much will cause rate limit
 
 def get_current_track(access_token):
     response = requests.get(

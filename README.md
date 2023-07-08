@@ -1,3 +1,6 @@
+# This NO LONGER Works
+# Spotify now resets auth token every hour 
+
 # Spotify live playback 
 
 A simple script to get the current playing song on Spotify
